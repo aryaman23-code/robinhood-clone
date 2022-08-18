@@ -1,0 +1,67 @@
+.newsfeed{
+    flex:0.7;
+    color:white;
+    
+}
+.newsfeed__portfolio{
+    text-align: left;
+}
+
+.newsfeed__portfolio h1{
+    margin:0;
+}
+.newsfeed__portfolio p{
+    margin-top:0;
+}
+.newfeed__chart{
+    width:100%;
+}
+.newsfeed__chartSection{
+    display:flex;
+    flex-direction:column;
+}
+
+.newsfeed__buying__section{
+    display:flex;
+    justify-content:space-between;
+    
+    padding:20px 8px 20px 0px ;
+    margin-bottom:60px;
+}
+
+.newsfeed__market__section{
+   
+    border:1px solid #31363A;
+    border-radius:4px;
+}
+
+.newsfeed__market__box{
+    height:10vh;
+    padding:20px;
+    text-align: left;
+   
+}
+
+.newsfeed__market__box p{
+    color:#7B858A;
+    font-size:15px;
+    text-transform: uppercase;
+    font-weight:700;
+    margin-bottom:8px;
+}
+
+.newsfeed__popularlists__section{
+    margin-top:60px;
+
+}
+
+.newsfeed__popularlists__intro{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 0px 20px 0px ;
+}
+.newsfeed_popularlists_badges {
+    display: flex;
+    flex-wrap: wrap;
+}
